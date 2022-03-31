@@ -16,17 +16,82 @@ export default function Candy() {
           <Menu />
         </div>
         <div className="site__content">
-          <div className="candy__title">
-            Trick Or Treat
-          </div>
-          <div className="candy__types">
-            <div className="candy__type">
-              <div className="candy__img">
-                <Image
-                  src={Trick1}
-                  width="150px"
-                  height="150px"
-                />
+          <div className="candy__block">
+            <div className="candy__title">Trick Or Treat</div>
+            <div className="candy__types">
+              <div className="candy__type">
+                <div className="candy__img">
+                  <Image
+                    src={Trick1}
+                    width="150px"
+                    height="150px"
+                  />
+                </div>
+                <div className="candy__name">Toffee</div>
+                <div className="candy__typename">Candy</div>
+                <div className="candy__price">$0.99</div>
+              </div>
+              <div className="candy__type">
+                <div className="candy__img">
+                  <Image
+                    src={Trick2}
+                    width="150px"
+                    height="150px"
+                  />
+                </div>
+                <div className="candy__name">Bone</div>
+                <div className="candy__typename">Toy</div>
+                <div className="candy__price">$2.99</div>
+              </div>
+              <div className="candy__type">
+                <div className="candy__img">
+                  <Image
+                    src={Trick3}
+                    width="150px"
+                    height="150px"
+                  />
+                </div>
+                <div className="candy__name">Scarecrow</div>
+                <div className="candy__typename">Toy</div>
+                <div className="candy__price">$5.99</div>
+              </div>
+            </div>
+            <div className="candy__types">
+              <div className="candy__type">
+                <div className="candy__img">
+                  <Image
+                    src={Trick4}
+                    width="150px"
+                    height="150px"
+                  />
+                </div>
+                <div className="candy__name">Candy cane</div>
+                <div className="candy__typename">Candy</div>
+                <div className="candy__price">$3.99</div>
+              </div>
+              <div className="candy__type">
+                <div className="candy__img">
+                  <Image
+                    src={Trick5}
+                    width="150px"
+                    height="150px"
+                  />
+                </div>
+                <div className="candy__name">Pumpkin</div>
+                <div className="candy__typename">Mask</div>
+                <div className="candy__price">$24.99</div>
+              </div>
+              <div className="candy__type">
+                <div className="candy__img">
+                  <Image
+                    src={Trick6}
+                    width="150px"
+                    height="150px"
+                  />
+                </div>
+                <div className="candy__name">Ghost</div>
+                <div className="candy__typename">Mask</div>
+                <div className="candy__price">$17.99</div>
               </div>
             </div>
           </div>

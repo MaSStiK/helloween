@@ -14,7 +14,7 @@ export default function About() {
           <div className="site__about">
             <div className="about__alltext">
               <div className="about__title">
-                About Halloween<br/>Night
+                About Helloween<br/>Night
               </div>
               <div className="about__text">
                 Night of the scariest, or all the ahead, is<br/>

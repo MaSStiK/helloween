@@ -28,6 +28,9 @@ export default function Menu() {
                 <Link href="/candy">
                     <a>Candy</a>
                 </Link>
+                <Link href="/arrivals">
+                    <a>Arrivals</a>
+                </Link>
             </div>
         </>
     )
